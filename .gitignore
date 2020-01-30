@@ -1,0 +1,12 @@
+/javafx-win/build/
+/javafx-win/nbproject/private/
+/javafx-win/release/modules/ext/
+/javafx-win/external/
+/javafx-mac/build/
+/javafx-mac/nbproject/private/
+/javafx-mac/release/modules/ext/
+/javafx-mac/external/
+/javafx-linux/build/
+/javafx-linux/nbproject/private/
+/javafx-linux/release/modules/ext/
+/javafx-linux/external/

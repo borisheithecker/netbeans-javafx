@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="javafx" basedir=".">
+    <target name="maven-resolve" depends="up-to-date" unless="is.jar.uptodate">
+        <echo>Resolving ${cluster}/${module.jar}</echo>
+        <exec executable="mvn" failonerror="true">
+            <arg value="validate"/>
+        </exec>
+    </target>
+    <target name="remove-external-files">
+        <delete dir="${release.dir}/modules/ext" />
+        <delete dir="${basedir}/external" />
+    </target>
+</project>
